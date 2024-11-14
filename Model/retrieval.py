@@ -3,6 +3,7 @@ from sentence_transformers import SentenceTransformer, util
 import torch
 import voyageai
 
+# VOYAGE API KEY，數天後將被手動銷毀。
 API_KEY_VOYAGE = "pa-4YVXyz_kKtxD4INpBOXFb64HTWho8ThrSBuOGpCnvGo"
 
 NAME_EMBEDDING = "TencentBAC/Conan-embedding-v1"
